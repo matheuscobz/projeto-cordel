@@ -10,10 +10,10 @@
     src: url(fontes/PassionOne-Regular.ttf) format('truetype');
 }
 
+
 :root{
-    --fontRegular:'Passion One';
-    --fontTexto:'Sriracha';
-    --corBranca:white;
+    --fonteDefault:'Passion One';
+    --fonteTexto:'Sriracha';
 }
 
 *{
@@ -22,60 +22,61 @@
 }
 
 header{
-    text-align: center;
     background-color: black;
+    text-align: center;
+    margin: auto;
 }
 
-header > h1{
-    font-family: var(--fontRegular);
+header > h1 {
+    font-family: var(--fonteDefault);
     font-weight: normal;
-    font-size: 6em;
-
+    font-size: 5em;
     color: white;
-    padding: 40px 0px 0px 0px
+    padding: 20px 0px 0px 0px;
 }
 
-header > p{
-    font-family: var(--fontTexto);
-    font-weight: normal;
-    color: rgb(196, 193, 193);
-    padding: 0px 0px 40px 0px;
+header p {
+    color: white;
+    font-size: 0.5em;
+    padding-bottom: 30px;
+
 }
 
 header a {
-    font-family: var(--fontTexto);
-    font-weight: normal;
-    font-size: 1em;
-    text-decoration: none;
+    font-family: var(--fonteDefault);
     color: white;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 header a:hover{
+
     text-decoration: underline;
 }
 
-.white{
-    padding: 40px 0px 20px 15px;
+section > p {
+    font-family: var(--fonteTexto);
+    padding: 30px 0px 30px 10px;
+    font-size: 1.7em;
 }
 
-.flower{
-    padding: 40px 0px 20px 15px; 
-    background-image:url(imagens/background001.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.flower > article{
-    background-image: linear-gradient(#011301, transparent);
-    margin: left;
-    
-}
-.flower  p{
-    padding-left: 15px;
-    text-align: left;
-    font-family: var(--fontTexto);
-    font-size: 1em;
+.imagem > p{
     color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    display: inline-block;
 }
-.pages{
-    padding: 40px 0px 20px 15px;
+
+#img1{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#img2{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
