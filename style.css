@@ -60,13 +60,13 @@ header a:hover{
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 10px;
+    padding-left: 30px;
     font-size: 3vw;
 }
 
 section > p {
     font-family: var(--fonteTexto);
-    padding: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 15px;
     
 }
 
@@ -75,7 +75,7 @@ section > p {
     background-color: rgba(0, 0, 0, 0.3);
     width: 50vw;;
     display: inline-block;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 15px;
 }
 
 #img1{
@@ -96,11 +96,13 @@ section > p {
 }
 
 footer {
+    
     background-color: black;
-    font-size: 0.6em;
+    
 }
 
 footer > p{
+    font-size: 1.1vw;
     text-align: center;
     color: white;
     padding: 5px;
